@@ -1,3 +1,6 @@
+# Fixed for Android
+This has been updated to always show the captionbutton on Android, per this answer: http://stackoverflow.com/a/36651040
+
 ---
 title: Inappbrowser
 description: Open an in-app browser window.
@@ -707,3 +710,5 @@ iab.open('http://url-that-fails-whitelist.com', 'random_string'); // loads in th
 iab.open('http://url-that-fails-whitelist.com', 'random_string', 'location=no'); // loads in the InAppBrowser, no location bar
 
 ```
+=======
+# cordova-plugin-inappbrowser
